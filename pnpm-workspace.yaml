@@ -1,2 +1,2 @@
 workspaces:
-  - routing-customize
+  - packages/*
