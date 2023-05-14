@@ -8,6 +8,4 @@ Dockerfile
 .nvmrc
 .vscode
 .idea
-.yarn
-.pnp.*
 test.tsx

@@ -1,4 +1,5 @@
 import NavigationBar from "components/common/NavigationBar";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,5 +10,10 @@ export default function Home() {
 }
 
 function HomeContent() {
-  return <div>Hello world!</div>;
+  return (
+    <main>
+      <h1>Hello world!</h1>
+      <Link href="/article">게시글 보기</Link>
+    </main>
+  );
 }
