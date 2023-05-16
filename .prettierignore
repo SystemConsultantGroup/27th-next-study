@@ -8,3 +8,4 @@ Dockerfile
 .vscode
 .idea
 test.tsx
+pnpm-lock.yaml
