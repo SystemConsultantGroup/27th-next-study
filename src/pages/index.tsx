@@ -21,11 +21,11 @@ function HomeContent() {
       <h1>Hello world!</h1>
       <Link href="/article">게시글 보기</Link>
       <p>Counter: {count}</p>
-      <button onClick={() => setCount(c => c + 1)}>Ho</button>
+      <button onClick={() => setCount((c) => c + 1)}>Ho</button>
     </main>
   );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
   return { props: {} };
-}
+};

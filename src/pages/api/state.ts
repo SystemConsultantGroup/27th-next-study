@@ -3,8 +3,12 @@ import { NextApiRequest, NextApiResponse } from "next";
 let state = {};
 
 export const stateRef = {
-  get ref() { return state; },
-  set ref(v) { state = v; },
+  get ref() {
+    return state;
+  },
+  set ref(v) {
+    state = v;
+  },
 };
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {

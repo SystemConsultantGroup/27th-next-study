@@ -12,7 +12,9 @@ export default function State() {
 
   const set = () => {
     const newValue = textareaRef.current!.value;
-    axios.put("/api/state", JSON.parse(newValue)).then(() => console.log("설정 완료"));
+    axios
+      .put("/api/state", JSON.parse(newValue))
+      .then(() => console.log("설정 완료"));
   };
 
   useEffect(refresh);
